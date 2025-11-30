@@ -16,7 +16,7 @@ gerar_mestrado.py
 # Obsidian
 .obsidian/
 .trash/
-
+RASCUNHOS.md
 # Editores
 .vscode/
 *.swp
