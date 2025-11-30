@@ -1,31 +1,70 @@
-\documentclass[article,12pt,oneside,a4paper,english,brazil]{abntex2}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{lipsum}
+\documentclass[
+article,			% Define que o documento é um artigo
+12pt,				% Tamanho da fonte
+oneside,			% Impressão apenas em um lado do papel
+a4paper,			% Tamanho do papel
+english,			% Idioma adicional para hifenização
+brazil				% Idioma principal
+]{abntex2}
 
-\titulo{Título do Artigo: Subtítulo se houver}
-\autor{Seu Nome \\ Mestrando em Letras - UFT}
-\local{Porto Nacional - TO}
-\data{2025}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{lipsum}     % Gera texto de preenchimento
+
+% --- PACOTE DE CITAÇÕES (Faltava este) ---
+\usepackage[alf]{abntex2cite}	% Citações sistema Autor-Data (Padrão Letras/Humanas)
+% -----------------------------------------
+
+% --- DADOS DO ARTIGO ---
+% Nota: Em artigos curtos, às vezes não usamos \maketitle do abntex2 
+% pois ele cria uma capa inteira. Abaixo faremos um cabeçalho manual.
 
 \begin{document}
-\maketitle
-
-\begin{resumo}
-Este é o resumo do artigo seguindo as normas da UFT/ABNT. 
-\vspace{\onelineskip}
-\noindent
-\textbf{Palavras-chave}: Literatura. Linguística. UFT.
-\end{resumo}
-
-\section{Introdução}
-\lipsum[1-2]
-
-\section{Desenvolvimento}
-\lipsum[3-5]
-
-\section{Conclusão}
-\lipsum[6]
-
-\bibliography{referencias}
+	
+	% --- CABEÇALHO MANUAL (Melhor para artigos) ---
+	\begin{center}
+		\textbf{\large TÍTULO DO ARTIGO: SUBTÍTULO SE HOUVER} \\
+		\vspace{1.5cm}
+		Seu Nome\footnote{Mestrando em Letras - UFT. E-mail: seuemail@uft.edu.br} \\
+		\small{Universidade Federal do Tocantins (UFT) - Porto Nacional}
+	\end{center}
+	\vspace{1cm}
+	% ----------------------------------------------
+	
+	% Resumo em Português
+	\begin{resumo}
+		Este é o resumo do artigo. O resumo deve ressaltar o objetivo, o método, os resultados e as conclusões do documento. A ordem e a extensão destes itens dependem do tipo de resumo (informativo ou indicativo) e do tratamento que cada item recebe no documento original.
+		
+		\vspace{\onelineskip}
+		\noindent
+		\textbf{Palavras-chave}: Literatura. Linguística. UFT.
+	\end{resumo}
+	
+	% (Opcional) Resumo em Inglês - Abstract
+	% \begin{resumo}[Abstract]
+		%  \begin{otherlanguage*}{english}
+			%    This is the abstract in English.
+			%
+			%    \vspace{\onelineskip}
+			%    \noindent
+			%    \textbf{Keywords}: Literature. Linguistics. UFT.
+			%  \end{otherlanguage*}
+		% \end{resumo}
+	
+	\section{Introdução}
+	Aqui você começa a escrever sua introdução. Exemplo de citação indireta \cite{authoryear}.
+	\lipsum[1] % Texto de exemplo
+	
+	\section{Desenvolvimento}
+	Aqui entra a discussão teórica.
+	\lipsum[2-3]
+	
+	\section{Conclusão}
+	\lipsum[4]
+	
+	% --- REFERÊNCIAS ---
+	% Lembre-se de criar o arquivo referencias.bib na mesma pasta
+	\bibliography{referencias}
+	
 \end{document}

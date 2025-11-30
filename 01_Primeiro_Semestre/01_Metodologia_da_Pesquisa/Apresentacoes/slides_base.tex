@@ -1,41 +1,96 @@
+% --- CONFIGURAÇÕES INICIAIS ---
 \documentclass{beamer}
-\usetheme{Madrid}
-\usecolortheme{default}
-\usepackage[utf8]{inputenc}
 
+% Tema e Codificação
+\usetheme{Madrid}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel} 
+
+% --- DEFINIÇÃO DE CORES UFT (Extraídas do Manual) ---
+% Definindo os nomes das cores baseados nos valores RGB da imagem
+\definecolor{UFTAzul}{RGB}{0, 84, 132}      % Azul Institucional
+\definecolor{UFTAmarelo}{RGB}{253, 185, 19} % Amarelo Institucional
+\definecolor{UFTVerde}{RGB}{0, 133, 119}    % Verde Institucional
+\definecolor{UFTCinza}{RGB}{102, 102, 102}  % Cinza Institucional
+
+% --- APLICANDO AS CORES AO TEMA MADRID ---
+% Muda a cor dos títulos, ícones de lista e estrutura geral para o Azul
+\setbeamercolor{structure}{fg=UFTAzul}
+
+% Configura as cores das caixas (blocos) e rodapés
+% Palette Primary: Usado na parte direita do rodapé (número da página) e títulos
+\setbeamercolor{palette primary}{bg=UFTAzul, fg=white}
+
+% Palette Secondary: Usado na parte do meio do rodapé (Título curto)
+\setbeamercolor{palette secondary}{bg=UFTVerde, fg=white}
+
+% Palette Tertiary: Usado na parte esquerda do rodapé (Autor)
+\setbeamercolor{palette tertiary}{bg=UFTCinza, fg=white}
+
+% Configura a cor de texto em destaque (\alert{}) para o Amarelo
+\setbeamercolor{alerted text}{fg=UFTAmarelo}
+
+% Remove os ícones de navegação pequenos (opcional, deixa o slide mais limpo)
+\setbeamertemplate{navigation symbols}{}
+
+% --- DADOS DA APRESENTAÇÃO ---
 \title[PPG-Letras UFT]{Título do Seminário}
 \subtitle{Disciplina: Nome da Disciplina}
 \author{Seu Nome}
-\institute[UFT]{Universidade Federal do Tocantins \\ PPG em Letras - Porto Nacional}
+\institute[UFT]{
+	Universidade Federal do Tocantins \\
+	PPG em Letras - Porto Nacional
+}
 \date{\today}
 
+% --- INÍCIO DOS SLIDES ---
 \begin{document}
-
-\begin{frame}
-\titlepage
-\end{frame}
-
-\begin{frame}{Sumário}
-\tableofcontents
-\end{frame}
-
-\section{Introdução}
-\begin{frame}{Introdução}
-\itemize
-    \item Tópico 1 da introdução
-    \item Contexto da pesquisa no Tocantins
-    \item Objetivos
-\end{itemize}
-\end{frame}
-
-\section{Metodologia}
-\begin{frame}{Metodologia}
-Descrição da metodologia aplicada.
-\end{frame}
-
-\section{Resultados}
-\begin{frame}{Resultados}
-Discussão sobre os textos lidos.
-\end{frame}
-
+	
+	% --- SLIDE 1: CAPA ---
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	
+	% --- SLIDE 2: SUMÁRIO ---
+	\begin{frame}{Sumário}
+		\tableofcontents
+	\end{frame}
+	
+	% --- SEÇÃO 1 ---
+	\section{Introdução}
+	
+	\begin{frame}{Introdução com Cores da UFT}
+		Observe como as cores oficiais foram aplicadas:
+		\vspace{0.5cm}
+		\begin{itemize}
+			\item Este marcador (bolinha) está no \textbf{Azul UFT}.
+			\item O título do slide está no \textbf{Azul UFT}.
+			\item \alert{Este texto está em destaque (Amarelo UFT).}
+		\end{itemize}
+		
+		\vspace{0.5cm}
+		% Exemplo de bloco colorido
+		\begin{block}{Exemplo de Bloco}
+			O tema Madrid usa as cores definidas para criar estes blocos automaticamente.
+		\end{block}
+	\end{frame}
+	
+	% --- SEÇÃO 2 ---
+	\section{Metodologia}
+	
+	\begin{frame}{Metodologia}
+		Descrição da metodologia aplicada.
+		\begin{enumerate}
+			\item Passo um
+			\item Passo dois
+		\end{enumerate}
+	\end{frame}
+	
+	% --- SEÇÃO 3 ---
+	\section{Resultados}
+	
+	\begin{frame}{Resultados}
+		Discussão sobre os textos lidos.
+	\end{frame}
+	
 \end{document}

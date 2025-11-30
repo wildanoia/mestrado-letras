@@ -11,6 +11,17 @@
 *.fls
 *.fdb_latexmk
 *.pdf
+*.nav
+*.snm
+*.vrb
+# Compiled files
+*.class
+*.o
+*.so
+# Backup files
+*~
+*.bak
+# Generated files
 !versao_final.pdf
 gerar_mestrado.py
 # Obsidian
