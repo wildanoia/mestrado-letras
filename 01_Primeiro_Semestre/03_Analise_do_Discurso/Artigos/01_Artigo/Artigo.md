@@ -79,8 +79,10 @@ No contexto brasileiro, a Marcha das Vadias, deriva do movimento internacional *
 
 Assim, a Marcha das vadias constituiu um movimento de contestação e enfrentamento às formações ideológicas sustentadas pelos Aparelhos Ideológicos de Estado -- AIE. Esses aparelhos como Escola, Igreja, Família, Mídia e Religião, entre outros, são lugares que segundo Pêcheux (2014, p. 132), “comportam posições de classes (lutas de classes)”, que podem ser “aplicadas aos diferentes “objetos” ideológicos regionais das situações concretas, na Escola, na Família etc.”. Neste sentido a circulação desse enunciado em diferentes lugares e meios midiáticos, demonstra como sujeitos se posicionam em diferentes formações discursivas para contestar contra a ideologia dominante do patriarcado-religioso.
 
-![Marcha das Vadias no Brasil](Imagens/eu_nao_vim_da_sua_costela.png)
 **Figura 1** - Marcha das Vadias no Brasil
+
+![Marcha das Vadias no Brasil](Imagens/eu_nao_vim_da_sua_costela.png)
+
 **Fonte:** https://br.pinterest.com/pin/575616396093074904/
 
 O cartaz traz uma memória do ponto de vista religioso-cristã patriarcal em sua costela que determina que a mulher é originária do homem. Neste sentido, esse cartaz vai de encontro às reflexões de Simone de Beauvoir [BEAUVOIR, 2016, p. 13], seu as quais “a mulher determina-se e diferencia-se em relação ao homem, ... a fêmea é o inessencial perante o essencial ... o homem é o Sujeito, o Absoluto; ela é o Outro.” A autora identifica a posição de submissão da mulher perante a sociedade patriarcal, onde essa deve ser obediente, dependente, subserviente auxiliadora, ou seja, ela é o Outro se significando a partir/por/pelo Sujeito homem.
